@@ -1,6 +1,6 @@
-pipeline{
+pipeline {
     agent any
-    statges{
+    stages{
         stage('1-clone'){
             steps{
                 sh "lscpu"

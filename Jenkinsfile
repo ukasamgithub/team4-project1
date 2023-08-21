@@ -13,7 +13,7 @@ pipeline {
         }
         stage('3-display'){
             steps{
-                sh "cat /etc/pwd"
+                sh "cat /etc/passwd"
             }
         }
     }
